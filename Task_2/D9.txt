@@ -1,0 +1,33 @@
+//(9) Write a Dart program to create a calculator using switch case.
+void main()
+{
+      int a=10, b=20;
+     String n;
+     print("Press + for Addition.");
+     print("Press - for Subtraction.");
+     print("Press * for Multiplication.");
+     print("Press / for Division.");
+     print("Press % for Modulo.");
+     stdout.write("Enter your choice :- ");
+     n = stdin.readLineSync()!;
+     switch (n) 
+     {
+         case '+':
+         print("Addition of $a and $b is = ${a + b}");
+         break;
+         case '-':
+         print("Subtraction of $a and $b is = ${a - b}");
+         break;
+         case '*':
+         print("Multiplication of $a and $b is = ${a * b}");
+         break;
+         case '/':
+         print("Division of $a and $b is = ${a / b}");
+         break;
+         case '%':
+         print("Modulo of $a and $b is = ${a % b}");
+         break;
+         default:
+         print("Invalid choice...!");
+         }
+}

@@ -1,0 +1,7 @@
+//(3) Write a Dart program to perform multiplication of
+two user given numbers.
+void main()
+{
+       int a=10,b=20;
+       print("Multiplication of $a and $b is=${a*b}");
+}

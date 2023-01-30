@@ -1,0 +1,13 @@
+//(8) Write a Dart program to find a Simple Interest.
+void main()
+{
+      int p, r, t;
+     stdout.write("Enter the Profit :- ");
+     p = int.parse(stdin.readLineSync()!);
+     stdout.write("Enter the Rate :- ");
+     r = int.parse(stdin.readLineSync()!);
+     stdout.write("Enter the Time :- ");
+     t = int.parse(stdin.readLineSync()!);
+     print("Simple Interese is ${(p * r * t) / 100}");
+
+}

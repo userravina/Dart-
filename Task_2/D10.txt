@@ -1,0 +1,13 @@
+//(10)Write a Dart program to find a user given number is even or odd.
+void main()
+{
+     int a=2;
+     if (a % 2 == 0) 
+     {
+          print("$a is Even number...");
+     } 
+     else 
+    {
+         print("$a is Odd number...");
+    }
+}

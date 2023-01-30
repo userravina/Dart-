@@ -1,0 +1,11 @@
+//(4) Write a Dart program to print multiplication table of user given
+number.
+void main()
+{
+       int a=10, i, n;
+       for (i = 1; i <= a; i++) 
+       {
+               n = a * i;
+               print("$a x $i = $n");
+        }
+}

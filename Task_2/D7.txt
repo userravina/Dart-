@@ -1,0 +1,7 @@
+//(7) Write a Dart program to print full name by getting first name and
+last name by user
+void main()
+{
+         String Fname="ravina", Lname="baldaniya";
+         print("Your full name is $Fname $Lname");
+}
